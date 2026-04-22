@@ -1,0 +1,29 @@
+[
+  {
+    "control_id": "AC-01",
+    "category": "Access Control",
+    "requirement": "Multi-factor authentication must be enabled for privileged accounts.",
+    "critical": true,
+    "expected_terms": ["mfa", "multi-factor authentication", "privileged", "admin", "enforced"],
+    "fail_terms": ["planned", "not yet", "in progress", "some accounts", "partial", "not all"],
+    "question_hints": ["mfa", "multi-factor authentication", "privileged access", "admin access"]
+  },
+  {
+    "control_id": "IR-01",
+    "category": "Incident Management",
+    "requirement": "The supplier must maintain a documented incident response process.",
+    "critical": true,
+    "expected_terms": ["incident response", "security incident", "documented", "process", "policy", "runbook"],
+    "fail_terms": ["informal", "ad hoc", "not documented", "being developed"],
+    "question_hints": ["incident response", "security incident", "breach process"]
+  },
+  {
+    "control_id": "AM-01",
+    "category": "Access Review",
+    "requirement": "Privileged access must be reviewed regularly.",
+    "critical": false,
+    "expected_terms": ["privileged access review", "access review", "quarterly", "monthly", "regularly"],
+    "fail_terms": ["occasionally", "when needed", "ad hoc", "not reviewed"],
+    "question_hints": ["privileged access", "access review", "admin accounts"]
+  }
+]
